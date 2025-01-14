@@ -19,13 +19,13 @@ jobs:
 
       - name: Install Dependencies
         run: |
-        cd docs
-        npm install
+          cd docs
+          npm install
 
       - name: Build Presentation
         run: |
-        cd docs
-        npm run build
+          cd docs
+          npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
