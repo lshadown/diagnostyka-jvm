@@ -26,7 +26,7 @@ jobs:
         run: |
           cd docs
           npm run build
-          cp docs/index.html dist/index.html
+          cp index.html dist/index.html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
